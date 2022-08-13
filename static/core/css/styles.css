@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #F5F5F5;
+}
+
+header h1 {
+    text-align: center;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    margin: 6em auto;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cities {
+    width: 25%;
+}
+
+section#current_temperature {
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#current_temperature p {
+    font-size: 36px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+section#current_temperature img {
+}
+
+#weather_forecast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 25px 10px;
+}
+
+#weather_forecast .weather_card {
+    border: 0;
+    border-radius: 15px;
+    width: 14%;
+    margin: 2px;
+    background-color: #F0FFFF;
+}
+
+.weather_forecast_day {
+    margin-top: 2px;
+    text-align: center;
+}
+
+.weather_forecast_date {
+    text-align: center;
+}
+
+.weather_logo {
+    width: 40px;
+    height: 40px;
+    display: none;
+    margin: 2px auto;
+}
+
+.max_temp, .min_temp {
+    margin-bottom: 0;
+}
+
+.max_temp {
+    float: left;
+    margin-left: 2px;
+}
+
+.min_temp {
+    float: right;
+    margin-right: 2px;
+}
