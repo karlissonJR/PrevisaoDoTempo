@@ -1,7 +1,7 @@
 $('#cities').select2({
     ajax: {
         language: 'pt-br',
-        url: 'http://127.0.0.1:8000/city/',
+        url: CITY_URL,
         dataType: 'json',
         data: function (params) {
 
